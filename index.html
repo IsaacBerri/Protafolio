@@ -1,33 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Isaac</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="paralax">
-        <img class="capa1 rellax" data-rellax-speed="-5" src="./img/Background.png" alt="">
-        <img class="capa2 rellax" data-rellax-speed="-6" src="./img/Capa 1.png" alt="">
+      <header class="header rellax" data-rellax-speed="-7">
+        <h1>Front-End Developer</h1>
+      </header>
+      <img
+        class="capa1 rellax"
+        data-rellax-speed="-5"
+        src="./img/Background.png"
+        alt=""
+      />
+      <img
+        class="capa2 rellax"
+        data-rellax-speed="-4"
+        src="./img/Capa 1.png"
+        alt=""
+      />
     </div>
     <nav class="navbar">
-        <ul class="navbarList">
-            <li class="item1">Inicio</li>
-            <li class="item2">Sobre mi</li>
-            <li class="item3">Skills</li>
-            <li class="item4">Contacto</li>
-        </ul>
+      <ul class="navbarList">
+        <a href=""><li class="item1">Inicio</li></a>
+        <a href=""><li class="item2">Sobre mi</li></a>
+        <a href=""><li class="item3">Skills</li></a>
+        <a href=""><li class="item4">Contacto</li></a>
+      </ul>
     </nav>
-    <header class="header rellax" data-rellax-speed="-7">
-        <h1>Front-End Developer</h1>
-    </header>
     <main class="content">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vel
+          eos, facere temporibus, error autem, voluptatum beatae numquam rem
+          ratione harum distinctio expedita illo consequatur soluta
+          exercitationem laboriosam? Illum, veritatis.
+        </h2>
+        <a class="buttons" href="./doc/CV Isaac.pdf" download="CV Isaac"
+          >Descargar CV</a
+        >
+      </div>
+      <img
+        src="./img/IMG-20230305-WA0085-removebg.png"
+        alt=""
+      />
     </main>
+    <section class="containerProyectos">
+      <img class="proyectosBackground" src="./img/6502013.jpg" alt="" />
+      <img class="cometa-1" src="./img/Cometa 1.png" alt="">
+      <img class="cometa-2" src="./img/Cometa 2.png" alt="">
+      <img class="cometa-3" src="./img/Cometa 3.png" alt="">
+      <img class="cohete" src="./img/Cohete.png" alt="">
+      <h2 class="subTitulo">Mis proyectos</h2>
+      <div class="proyectos">
+        <article class="article1">
+          <figure>
+            <img src="./img/IMG-20230305-WA0085-removebg.png" alt="">
+            <div class="hover">
+              <h3>E-commerce</h3>
+              <a class="buttons" href="#">Visitar</a>
+            </div>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            facere temporibus ducimus eligendi autem. Mollitia vel placeat natus
+            nisi eius officia, dolorem magni quas odio dicta nobis vitae,
+            similique voluptas?
+          </p>
+        </article>
+        <article class="article2">
+           <figure>
+            <img src="./img/IMG-20230305-WA0085-removebg.png" alt="">
+            <div class="hover">
+              <h3>Bingo</h3>
+              <a class="buttons" href="#">Visitar</a>
+            </div>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            facere temporibus ducimus eligendi autem. Mollitia vel placeat natus
+            nisi eius officia, dolorem magni quas odio dicta nobis vitae,
+            similique voluptas?
+          </p>
+        </article>
+        <article class="article3">
+           <figure>
+            <img src="./img/IMG-20230305-WA0085-removebg.png" alt="">
+            <div class="hover">
+              <h3>Razer</h3>
+              <a class="buttons" href="#">Visitar</a>
+            </div>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            facere temporibus ducimus eligendi autem. Mollitia vel placeat natus
+            nisi eius officia, dolorem magni quas odio dicta nobis vitae,
+            similique voluptas?
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="skills">
 
+    </section>
 
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
