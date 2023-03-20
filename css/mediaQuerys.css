@@ -1,0 +1,87 @@
+@media (min-width: 300px) and (max-width: 699px) {
+  .paralax {
+    height: 50vh;
+  }
+  .navbar ul {
+    justify-content: center;
+  }
+  .header {
+    height: 80px;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .content div h2 {
+    font-size: 1.35rem;
+    margin-bottom: 30px;
+  }
+  .content img {
+    width: 50%;
+    height: 30%;
+  }
+
+  .containerProyectos {
+    height: 800px;
+  }
+
+  .proyectos article {
+    width: 100%;
+    height: 150px;
+  }
+
+  .infoDeProyecto p {
+    font-size: 8px;
+  }
+
+  .hover h3 {
+    font-size: 15px;
+  }
+
+  .buttons {
+    font-size: 15px;
+    margin: 2px;
+  }
+  .skills {
+    height: 670px;
+  }
+
+  .tabla {
+    width: 80%;
+    height: 250px;
+  }
+  .HTML {
+    height: 30px;
+  }
+  .HTML svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .CSS {
+    height: 30px;
+  }
+  .CSS svg {
+    width: 30px;
+    height: 30px;
+  }
+  .JavaScript {
+    height: 30px;
+  }
+  .JavaScript svg {
+    width: 30px;
+    height: 30px;
+  }
+  .ReactJS {
+    height: 30px;
+  }
+  .ReactJS svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tecnologias .span {
+    width: 80px;
+    height: 80px;
+  }
+}

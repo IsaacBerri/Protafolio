@@ -1,195 +1,345 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/6502013.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaQuerys.css">
+    <title>Isaac</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="shortcut icon" href="./img/6502013.jpg" type="image/x-icon">
-  <title>Isaac</title>
-</head>
-
-<body>
-  <div class="paralax" id="Inicio">
-    <header class="header">
-      <h1>Front-End Developer</h1>
-    </header>
-    <img class="capa1" src="./img/Background.png" alt="" />
-    <img class="capa2" src="./img/Capa 1.png" alt="" />
-  </div>
-  <nav class="navbar">
-    <ul class="navbarList">
-      <a href="#Inicio">
-        <li class="item1">Inicio</li>
-      </a>
-      <a href="#SobreMi">
-        <li class="item2">Sobre mi</li>
-      </a>
-      <a href="#Skills">
-        <li class="item3">Skills</li>
-      </a>
-      <a href="#Contacto">
-        <li class="item4">Contacto</li>
-      </a>
-    </ul>
-  </nav>
-  <main class="content" id="SobreMi">
-    <div data-aos="fade-down-right">
-      <h2>
-        Soy un programador Front-End junior apasionado
-        por la creación de experiencias de usuario
-        atractivas e intuitivas en la web. Con conocimientos
-        en HTML, CSS y JavaScript, estoy buscando una
-        oportunidad para aplicar mis habilidades y
-        aprender de profesionales en el campo. Medellin-Colombia 🌎
-      </h2>
-      <a class="buttons" href="./doc/CV Isaac.pdf" download="CV Isaac">Descargar CV</a>
+  <body>
+    <div class="paralax" id="Inicio">
+      <header class="header">
+        <h1>Front-End Developer</h1>
+      </header>
+      <img class="capa1" src="./img/Background.png" alt="" />
+      <img class="capa2" src="./img/Capa 1.png" alt="" />
     </div>
-    <img data-aos="fade-up" src="./img/IMG-20230305-WA0085-removebg.png" alt="" />
-  </main>
-  <section class="containerProyectos">
-    <img class="proyectosBackground" src="./img/6502013.jpg" alt="" />
-    <img class="cometa-1" src="./img/Cometa 1.png" alt="">
-    <img class="cometa-2" src="./img/Cometa 1.png" alt="">
-    <img class="cometa-3" src="./img/Cometa 1.png" alt="">
-    <img class="cometa-4" src="./img/Cometa 1.png" alt="">
-    <img class="cometa-5" src="./img/Cometa 1.png" alt="">
-    <img class="cometa-6" src="./img/Cometa 1.png" alt="">
-    <h2 class="subTitulo">Mis proyectos</h2>
-    <div class="proyectos">
-      <article>
-        <figure>
-          <img src="./img/E-comerce.PNG" alt="">
-          <div class="hover">
-            <h3>E-commerce</h3>
-            <a class="buttons" target="_blank" href="https://proyect-react-ivory.vercel.app/">Visitar</a>
+    <nav class="navbar">
+      <ul class="navbarList">
+        <a href="#Inicio">
+          <li class="item1">Inicio</li>
+        </a>
+        <a href="#SobreMi">
+          <li class="item2">Sobre mi</li>
+        </a>
+        <a href="#Skills">
+          <li class="item3">Skills</li>
+        </a>
+        <a href="#Contacto">
+          <li class="item4">Contacto</li>
+        </a>
+      </ul>
+    </nav>
+    <main class="content" id="SobreMi">
+      <div data-aos="fade-down-right">
+        <h2>
+          Soy un programador Front-End junior apasionado por la creación de
+          experiencias de usuario atractivas e intuitivas en la web. Con
+          conocimientos en HTML, CSS y JavaScript, estoy buscando una
+          oportunidad para aplicar mis habilidades y aprender de profesionales
+          en el campo. Medellin-Colombia 🌎
+        </h2>
+        <a class="buttons" href="./doc/CV Isaac.pdf" download="CV Isaac"
+          >Descargar CV</a
+        >
+      </div>
+      <img
+        data-aos="fade-up"
+        src="./img/IMG-20230305-WA0085-removebg.png"
+        alt=""
+      />
+    </main>
+    <section class="containerProyectos">
+      <img class="proyectosBackground" src="./img/6502013.jpg" alt="" />
+      <img class="cometa-1" src="./img/Cometa 1.png" alt="" />
+      <img class="cometa-2" src="./img/Cometa 1.png" alt="" />
+      <img class="cometa-3" src="./img/Cometa 1.png" alt="" />
+      <img class="cometa-4" src="./img/Cometa 1.png" alt="" />
+      <img class="cometa-5" src="./img/Cometa 1.png" alt="" />
+      <img class="cometa-6" src="./img/Cometa 1.png" alt="" />
+      <h2 class="subTitulo">Mis proyectos</h2>
+      <div class="proyectos">
+        <article>
+          <figure>
+            <img src="./img/E-comerce.PNG" alt="" />
+            <div class="hover">
+              <h3>E-commerce</h3>
+              <a
+                class="buttons"
+                target="_blank"
+                href="https://proyect-react-ivory.vercel.app/"
+                >Visitar</a
+              >
+            </div>
+          </figure>
+          <div class="infoDeProyecto">
+            <p>
+              Este proyecto es un E-comerce funcional, donde extraigo los
+              productos de una coleccion llamada Productos en una base de datos
+              (Firebase), tambien guardo las "compras" de los "usuarios" en otra
+              coleccion llamada ventas, esto con el fin de hacer una simulacion
+              de un E-comerce funcional
+            </p>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-html"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-css"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="logos:javascript"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-reactjs"
+              data-width="20"
+              data-height="20"
+            ></span>
           </div>
-        </figure>
-        <div class="infoDeProyecto">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            facere temporibus ducimus eligendi autem. Mollitia vel placeat natus
-            nisi eius officia, dolorem magni quas odio dicta nobis vitae,
-            similique voluptas?
-          </p>
-          <span class="iconify span" data-icon="vscode-icons:file-type-html" data-width="20" data-height="20"></span>
-          <span class="iconify span" data-icon="vscode-icons:file-type-css" data-width="20" data-height="20"></span>
-          <span class="iconify span" data-icon="logos:javascript" data-width="20" data-height="20"></span>
-          <span class="iconify span" data-icon="vscode-icons:file-type-reactjs" data-width="20" data-height="20"></span>
-        </div>
-    </article>
-    <article>
-      <figure>
-        <img src="./img/IMG-20230305-WA0085-removebg.png" alt="">
-        <div class="hover">
-          <h3>Bingo</h3>
-          <a class="buttons" href="#">Visitar</a>
-        </div>
-      </figure>
-      <div class="infoDeProyecto">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          facere temporibus ducimus eligendi autem. Mollitia vel placeat natus
-          nisi eius officia, dolorem magni quas odio dicta nobis vitae,
-          similique voluptas?
-        </p>
-        <span class="iconify span" data-icon="vscode-icons:file-type-html" data-width="20" data-height="20"></span>
-        <span class="iconify span" data-icon="vscode-icons:file-type-css" data-width="20" data-height="20"></span>
-        <span class="iconify span" data-icon="logos:javascript" data-width="20" data-height="20"></span>
+        </article>
+        <article>
+          <figure>
+            <img src="./img/bingo.png" alt="" />
+            <div class="hover">
+              <h3>Bingo</h3>
+              <a
+                class="buttons"
+                target="_blank"
+                href="https://isaacberri.github.io/Bingo/"
+                >Visitar</a
+              >
+            </div>
+          </figure>
+          <div class="infoDeProyecto">
+            <p>
+              Es un tablero que simula un bingo, es un bingo muy básico, pero
+              que cumple con todas las funciones de una partida normal.
+            </p>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-html"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-css"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="logos:javascript"
+              data-width="20"
+              data-height="20"
+            ></span>
+          </div>
+        </article>
+        <article>
+          <figure>
+            <img src="./img/Razer.PNG" alt="" />
+            <div class="hover">
+              <h3>Razer</h3>
+              <a
+                class="buttons"
+                target="_blank"
+                href="https://razer-colombia.netlify.app/index.html"
+                >Visitar</a
+              >
+            </div>
+          </figure>
+          <div class="infoDeProyecto">
+            <p>
+              Es un proyecto completamente estático inspirado en una marca ya
+              existente (Razer) el cual cuenta con distintas secciones que
+              muestras todo lo que tiene que ver con la misma, para este
+              proyecto se usaron tecnologías tales como bootstrap para la
+              maquetación de la página y sass para estilar el sitio
+            </p>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-html"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-css"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="logos:bootstrap"
+              data-width="20"
+              data-height="20"
+            ></span>
+            <span
+              class="iconify span"
+              data-icon="vscode-icons:file-type-sass"
+              data-width="20"
+              data-height="20"
+            ></span>
+          </div>
+        </article>
       </div>
-    </article>
-    <article>
-      <figure>
-        <img src="./img/Razer.PNG" alt="">
-        <div class="hover">
-          <h3>Razer</h3>
-          <a class="buttons" target="_blank" href="https://razer-colombia.netlify.app/index.html">Visitar</a>
+    </section>
+    <section class="skills" id="Skills">
+      <h2>Skills</h2>
+      <article class="tabla">
+        <div class="HTML" data-aos="fade-right">
+          <span
+            class="iconify"
+            data-icon="vscode-icons:file-type-html"
+          ></span>
         </div>
-      </figure>
-      <div class="infoDeProyecto">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          facere temporibus ducimus eligendi autem. Mollitia vel placeat natus
-          nisi eius officia, dolorem magni quas odio dicta nobis vitae,
-          similique voluptas?
-        </p>
-        <span class="iconify span" data-icon="vscode-icons:file-type-html" data-width="20" data-height="20"></span>
-        <span class="iconify span" data-icon="vscode-icons:file-type-css" data-width="20" data-height="20"></span>
-        <span class="iconify span" data-icon="logos:bootstrap" data-width="20" data-height="20"></span>
-        <span class="iconify span" data-icon="vscode-icons:file-type-sass" data-width="20" data-height="20"></span>
+        <div class="CSS" data-aos="fade-right">
+          <span
+            class="iconify"
+            data-icon="vscode-icons:file-type-css"
+          ></span>
+        </div>
+        <div class="JavaScript" data-aos="fade-right">
+          <span
+            class="iconify"
+            data-icon="logos:javascript"
+          ></span>
+        </div>
+        <div class="ReactJS" data-aos="fade-right">
+          <span
+            class="iconify"
+            data-icon="vscode-icons:file-type-reactjs"
+          ></span>
+        </div>
+      </article>
+      <article class="tecnologias">
+        <span
+          class="iconify span"
+          data-icon="vscode-icons:file-type-html"
+        ></span>
+        <span
+          class="iconify span"
+          data-icon="vscode-icons:file-type-css"
+        ></span>
+        <span
+          class="iconify span"
+          data-icon="logos:javascript"
+        ></span>
+        <span
+          class="iconify span"
+          data-icon="vscode-icons:file-type-reactjs"
+        ></span>
+        <span
+          class="iconify span"
+          data-icon="logos:bootstrap"
+        ></span>
+        <span
+          class="iconify span"
+          data-icon="vscode-icons:file-type-git"
+        ></span>
+        <span
+          class="iconify span"
+          data-icon="mdi:github"
+          style="color: white"
+        ></span>
+        <span
+          class="iconify span"
+          data-icon="vscode-icons:file-type-sass"
+        ></span>
+      </article>
+    </section>
+
+    <section class="contacto" id="Contacto">
+      <img class="contactoBackground" src="./img/8753.jpg" alt="" />
+      <!-- <img class="hierva" src="./img/Capa 1.png" alt=""> -->
+      <div class="containerForm" data-aos="flip-down">
+        <h3>Contactame</h3>
+        <form class="form">
+          <div class="containerInputs">
+            <span
+              class="iconify iconInputs"
+              data-icon="mdi:user"
+              style="color: #ff0072"
+            ></span>
+            <input type="text" class="inputs" placeholder="Nombre" />
+          </div>
+          <div class="containerInputs">
+            <span
+              class="iconify"
+              data-icon="lucide:at-sign"
+              style="color: #ff0072"
+            ></span>
+            <input type="email" class="inputs" placeholder="Correo" />
+          </div>
+          <div class="containerInputs">
+            <span
+              class="iconify"
+              data-icon="mdi:telephone"
+              style="color: #ff0072"
+            ></span>
+            <input type="number" class="inputs" placeholder="Numero" />
+          </div>
+          <textarea class="mensaje" placeholder="Dejame un mensaje"></textarea>
+          <div class="containerButton">
+            <button class="buttons" type="submit">Enviar</button>
+            <button class="buttons" type="reset">Limpiar</button>
+          </div>
+        </form>
       </div>
-    </article>
-    </div>
-  </section>
-  <section class="skills" id="Skills">
-    <h2>Skills</h2>
-    <article class="tabla">
-      <div class="HTML" data-aos="fade-right"><span class="iconify" data-icon="vscode-icons:file-type-html"
-          data-width="60" data-height="60"></span></div>
-      <div class="CSS" data-aos="fade-right"><span class="iconify" data-icon="vscode-icons:file-type-css"
-          data-width="60" data-height="60"></span></div>
-      <div class="JavaScript" data-aos="fade-right"><span class="iconify" data-icon="logos:javascript" data-width="60"
-          data-height="60"></span></div>
-      <div class="ReactJS" data-aos="fade-right"><span class="iconify" data-icon="vscode-icons:file-type-reactjs"
-          data-width="60" data-height="60"></span></div>
-    </article>
-    <article class="tecnologias">
-      <span class="iconify span" data-icon="vscode-icons:file-type-html" data-width="100" data-height="100"></span>
-      <span class="iconify span" data-icon="vscode-icons:file-type-css" data-width="100" data-height="100"></span>
-      <span class="iconify span" data-icon="logos:javascript" data-width="100" data-height="100"></span>
-      <span class="iconify span" data-icon="vscode-icons:file-type-reactjs" data-width="100" data-height="100"></span>
-      <span class="iconify span" data-icon="logos:bootstrap" data-width="100" data-height="100"></span>
-      <span class="iconify span" data-icon="vscode-icons:file-type-git" data-width="100" data-height="100"></span>
-      <span class="iconify span" data-icon="mdi:github" style="color: white;" data-width="100" data-height="100"></span>
-      <span class="iconify span" data-icon="vscode-icons:file-type-sass" data-width="100" data-height="100"></span>
-    </article>
-  </section>
+    </section>
+    <footer>
+      <div class="copyright">
+        <h4>Isaac Berrio || 2023 || copyright &copy;</h4>
+      </div>
+      <div class="redesSociales">
+        <a
+          href="https://www.facebook.com/profile.php?id=100006271905839"
+          target="_blank"
+          ><span
+            class="iconify"
+            data-icon="ic:baseline-facebook"
+            style="color: #ff0072"
+            data-width="50"
+            data-height="50"
+          ></span
+        ></a>
+        <a href="https://www.linkedin.com/in/isaacberrio/" target="_blank"
+          ><span
+            class="iconify"
+            data-icon="mdi:linkedin"
+            style="color: #ff0072"
+            data-width="50"
+            data-height="50"
+          ></span
+        ></a>
+        <a href="https://github.com/IsaacBerri" target="_blank"
+          ><span
+            class="iconify"
+            data-icon="mdi:github"
+            style="color: #ff0072"
+            data-width="50"
+            data-height="50"
+          ></span
+        ></a>
+      </div>
+    </footer>
 
-  <section class="contacto" id="Contacto">
-    <img class="contactoBackground" src="./img/8753.jpg" alt="">
-    <!-- <img class="hierva" src="./img/Capa 1.png" alt=""> -->
-    <div class="containerForm" data-aos="flip-down">
-      <h3>Contactame</h3>
-      <form class="form">
-        <div class="containerInputs">
-          <span class="iconify iconInputs" data-icon="mdi:user" style="color: #ff0072;"></span>
-          <input type="text" class="inputs" placeholder="Nombre">
-        </div>
-        <div class="containerInputs">
-          <span class="iconify" data-icon="lucide:at-sign" style="color: #ff0072;"></span>
-          <input type="email" class="inputs" placeholder="Correo">
-        </div>
-        <div class="containerInputs">
-          <span class="iconify" data-icon="mdi:telephone" style="color: #ff0072;"></span>
-          <input type="number" class="inputs" placeholder="Numero">
-        </div>
-        <textarea class="mensaje" placeholder="Dejame un mensaje"></textarea>
-        <div class="containerButton">
-          <button class="buttons" type="submit">Enviar</button>
-          <button class="buttons" type="reset">Limpiar</button>
-        </div>
-      </form>
-    </div>
-  </section>
-  <footer>
-    <div class="copyright">
-      <h4>Isaac Berrio || 2023 || copyright &copy;</h4>
-    </div>
-    <div class="redesSociales">
-      <a href="https://www.facebook.com/profile.php?id=100006271905839" target="_blank"><span class="iconify"
-          data-icon="ic:baseline-facebook" style="color: #ff0072;" data-width="50" data-height="50"></span></a>
-      <a href="https://www.linkedin.com/in/isaacberrio/" target="_blank"><span class="iconify" data-icon="mdi:linkedin"
-          style="color: #ff0072;" data-width="50" data-height="50"></span></a>
-      <a href="https://github.com/IsaacBerri" target="_blank"><span class="iconify" data-icon="mdi:github"
-          style="color: #ff0072;" data-width="50" data-height="50"></span></a>
-    </div>
-  </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
-  <script src="./js/main.js"></script>
-</body>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
